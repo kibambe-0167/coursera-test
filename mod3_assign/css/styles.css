@@ -10,12 +10,12 @@ a:hover {
 	text-decoration: none;
 }
 nav div > a {
-	color: white;
+	color: blue;
 }
-#but {
+/*#but {
 	align-self: right;
 	color: white;
-}
+}*/
 section div > a {
 	color: blue;
 	font-size: 17px;
@@ -37,6 +37,7 @@ section div > a {
 	padding-top: 10px;
 	margin-top: 20px;
 }
+/*
 #collapse-nav {
 	text-align: center;
 	background-color: rgb(10, 180, 10);
@@ -50,9 +51,9 @@ section div > a {
 	width: 100%;
 	color: white;
 	padding: 10px;
-	list-style: none;
+	list-style: none;*/
 }
-#nav {
+#headerNav {
 	background-color: rgb( 20, 20, 20);
 	border-radius: 0px;
 	border: 0px;
@@ -100,12 +101,12 @@ section div > a {
 
 @media ( min-width: 768px ) and ( max-width: 991px ) {
 	#beef {
-		/*margin-top: 20px;*/
+		margin-top: 20px;
 		/*margin-bottom: 20px;*/
 	}
 	#sushi {
 		margin-top: 20px;
-		width: 95%;
+		width: 90%;
 	}
 }
 
@@ -115,5 +116,20 @@ section div > a {
 	}
 	#sushi {
 		margin-top: 20px;
+	}
+	#collapse-nav {
+		text-align: center;
+		background-color: rgb(10, 180, 10);
+	}
+	#collapse-nav a:hover {
+		width: 100%;
+		color: black;
+		background-color: white;
+	}
+	#collapse-nav ul li {
+		width: 100%;
+		color: white;
+		padding: 10px;
+		list-style: none;
 	}
 }
