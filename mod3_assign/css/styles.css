@@ -33,16 +33,16 @@ section div > a {
 	padding-top: 10px;
 	margin-top: 20px;
 }
-#collapse-nav {
+#collapsable-nav {
 	text-align: center;
 	background-color: rgb(10, 180, 10);
 }
-#collapse-nav a:hover {
+#collapsable-nav a:hover {
 	width: 100%;
 	color: black;
 	background-color: white;
 }
-#collapse-nav ul li {
+#collapsable-nav ul li {
 	width: 100%;
 	color: white;
 	padding: 10px;
@@ -54,7 +54,7 @@ section div > a {
 	border: 0px;
 }
 #nav-list {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 #nav-list a {
   color: white;
@@ -92,11 +92,6 @@ section div > a {
 		/*margin-top: 20px;*/
 		width: 95%;
 	}
-	.navbar-header div > .navbar-collapse {
- 		height:auto!important;
- 		padding-bottom:0;
-		overflow:visible!important
-	}
 }
 
 @media ( min-width: 768px ) and ( max-width: 991px ) {
@@ -106,11 +101,6 @@ section div > a {
 	}
 	#sushi {
 		margin-top: 20px;
-	}
-	.navbar-header div > .navbar-collapse {
- 		height:auto!important;
- 		padding-bottom:0;
-		overflow:visible!important
 	}
 }
 
